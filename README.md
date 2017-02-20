@@ -1,11 +1,11 @@
-# fas-st
-PHP библиотека для сокращения ссылок через сервис [fas.st](http://fas.st)
+# ali-pub
+PHP библиотека для сокращения ссылок через сервис [ali.pub](http://ali.pub)
 
 **Установка:**
 
-    composer require staconik/fas-st
+    composer require staconik/ali-pub
 
 **Использование:**
 
-    $short_url = \FasSt\FasSt::reduce(URL);
+    $short_url = \AliPub\AliPub::reduce(URL);
     //URL - ссылка, которую нужно сократить
